@@ -398,6 +398,10 @@ h3 {
   width: 100%;
 }
 
+.final-photo {
+  height: clamp(280px, 31vw, 430px);
+}
+
 .people-grid {
   display: grid;
   gap: 18px;
