@@ -307,6 +307,10 @@ h3 {
   width: fit-content;
 }
 
+#overview-title {
+  font-size: clamp(30px, 3.3vw, 44px);
+}
+
 .section.muted {
   background: var(--paper);
   max-width: none;
