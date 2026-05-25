@@ -354,6 +354,12 @@ h3 {
 .submission-location {
   display: grid;
   gap: 34px;
+  padding-bottom: 24px;
+}
+
+#org {
+  border-top: 1px solid var(--line);
+  padding-top: 24px;
 }
 
 .location-section,
