@@ -553,7 +553,7 @@ h3 {
   align-items: center;
   display: grid;
   gap: 16px;
-  grid-template-columns: 92px 92px minmax(240px, 310px) 112px;
+  grid-template-columns: 116px 116px minmax(430px, 560px) 174px;
   justify-content: center;
 }
 
@@ -561,14 +561,14 @@ h3 {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 10px;
-  height: 58px;
+  height: 116px;
   object-fit: contain;
-  padding: 9px;
+  padding: 14px;
   width: 100%;
 }
 
 .sponsor-logos .sponsor-wide {
-  height: 58px;
+  height: 116px;
 }
 
 .contact {
