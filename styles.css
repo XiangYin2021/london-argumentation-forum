@@ -548,7 +548,8 @@ h3 {
 }
 
 .person h3 {
-  font-size: clamp(19px, 1.8vw, 24px);
+  font-size: clamp(16px, 1.25vw, 18px);
+  font-weight: 520;
   margin-bottom: 0;
 }
 
