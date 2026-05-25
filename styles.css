@@ -346,15 +346,22 @@ h3 {
   font-weight: 760;
 }
 
-.location-section .section-copy {
+.submission-location {
+  display: grid;
+  gap: 34px;
+}
+
+.location-section {
+  border-top: 1px solid var(--line);
   max-width: 820px;
+  padding-top: 34px;
 }
 
 .location-section p:not(.eyebrow) {
-  color: var(--navy);
-  font-size: clamp(18px, 1.6vw, 24px);
-  font-weight: 720;
-  line-height: 1.45;
+  color: var(--muted);
+  font-size: clamp(16px, 1.35vw, 19px);
+  font-weight: 400;
+  line-height: 1.66;
 }
 
 .section-head {
