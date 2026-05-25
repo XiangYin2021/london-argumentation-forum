@@ -221,7 +221,7 @@ h2 {
 }
 
 .compact-title {
-  font-size: clamp(21px, 2vw, 29px);
+  font-size: clamp(18px, 1.65vw, 24px);
 }
 
 h3 {
@@ -386,7 +386,7 @@ h3 {
 }
 
 .topic h3 {
-  font-size: clamp(21px, 2vw, 29px);
+  font-size: clamp(18px, 1.65vw, 24px);
   font-weight: 720;
   margin-bottom: 8px;
 }
@@ -397,6 +397,24 @@ h3 {
   line-height: 1.58;
   margin-bottom: 0;
   max-width: 900px;
+}
+
+.special-topic {
+  background: rgba(185, 139, 74, 0.1);
+  border-bottom-color: rgba(185, 139, 74, 0.28);
+  border-radius: 12px;
+  margin-top: 12px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.special-topic span,
+.special-topic h3 {
+  color: var(--gold);
+}
+
+.special-topic p {
+  color: var(--ink-soft);
 }
 
 .photo-band {
