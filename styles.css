@@ -523,11 +523,11 @@ h3 {
 }
 
 .date-row {
-  align-items: baseline;
+  align-items: start;
   border-bottom: 1px solid var(--line);
-  display: flex;
+  display: grid;
   gap: 24px;
-  justify-content: space-between;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 0.62fr);
   padding: 26px 0;
 }
 
@@ -538,9 +538,10 @@ h3 {
 
 .date-row strong {
   color: var(--navy);
-  font-size: clamp(22px, 2.5vw, 36px);
+  font-size: clamp(16px, 1.4vw, 20px);
   font-weight: 720;
-  text-align: right;
+  line-height: 1.55;
+  text-align: left;
 }
 
 .location-row strong {
@@ -585,6 +586,12 @@ h3 {
   text-align: left;
 }
 
+.committee-contact {
+  border-top: 1px solid var(--line);
+  margin-top: 32px;
+  padding-top: 32px;
+}
+
 .support p {
   margin: 0;
 }
@@ -620,12 +627,6 @@ h3 {
 
 .sponsor-logos .sponsor-wide {
   height: 116px;
-}
-
-.contact {
-  padding-bottom: clamp(58px, 7vw, 88px);
-  padding-top: clamp(58px, 7vw, 88px);
-  text-align: left;
 }
 
 .contact-line {
@@ -791,8 +792,8 @@ h3 {
 
   .date-row {
     align-items: flex-start;
-    flex-direction: column;
     gap: 8px;
+    grid-template-columns: 1fr;
   }
 
   .date-row strong {
