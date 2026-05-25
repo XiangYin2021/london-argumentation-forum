@@ -448,6 +448,11 @@ h3 {
   text-align: right;
 }
 
+.location-row strong {
+  font-size: clamp(18px, 2vw, 27px);
+  max-width: 680px;
+}
+
 .people-grid {
   gap: 12px;
   grid-template-columns: 1fr;
