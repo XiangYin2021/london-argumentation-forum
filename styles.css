@@ -510,6 +510,17 @@ h3 {
   text-transform: uppercase;
 }
 
+.support .support-copy {
+  color: var(--ink-soft);
+  font-size: clamp(15px, 1.25vw, 17px);
+  font-weight: 450;
+  letter-spacing: 0;
+  line-height: 1.62;
+  margin: 0 auto;
+  max-width: 820px;
+  text-transform: none;
+}
+
 .sponsor-logos {
   align-items: center;
   display: grid;
