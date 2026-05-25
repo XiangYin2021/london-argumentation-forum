@@ -488,13 +488,12 @@ h3 {
 }
 
 .support {
-  align-items: center;
   border-top: 1px solid var(--line);
-  display: flex;
-  gap: 18px;
-  justify-content: center;
+  display: grid;
+  gap: 24px;
   margin-top: 40px;
-  padding-top: 44px;
+  padding-top: 38px;
+  text-align: center;
 }
 
 .support p {
@@ -506,10 +505,25 @@ h3 {
   text-transform: uppercase;
 }
 
-.support strong {
-  color: var(--navy);
-  font-size: clamp(38px, 4.5vw, 66px);
-  line-height: 1;
+.sponsor-logos {
+  align-items: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.sponsor-logos img {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  height: 96px;
+  object-fit: contain;
+  padding: 18px;
+  width: 100%;
+}
+
+.sponsor-logos .sponsor-wide {
+  grid-column: span 2;
 }
 
 .contact {
@@ -682,9 +696,16 @@ h3 {
     text-align: left;
   }
 
-  .support,
   .site-footer {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .sponsor-logos {
+    grid-template-columns: 1fr;
+  }
+
+  .sponsor-logos .sponsor-wide {
+    grid-column: span 1;
   }
 }
