@@ -309,6 +309,7 @@ h3 {
 
 #overview-title {
   font-size: clamp(30px, 3.3vw, 44px);
+  margin-bottom: 34px;
 }
 
 .section.muted {
@@ -355,7 +356,8 @@ h3 {
   gap: 34px;
 }
 
-.location-section {
+.location-section,
+.dates-section {
   border-top: 1px solid var(--line);
   max-width: 820px;
   padding-top: 34px;
@@ -397,7 +399,7 @@ h3 {
 }
 
 .topic h3 {
-  font-size: clamp(18px, 1.65vw, 24px);
+  font-size: clamp(17px, 1.45vw, 21px);
   font-weight: 720;
   margin-bottom: 8px;
 }
@@ -525,17 +527,16 @@ h3 {
   color: var(--navy);
 }
 
-.date-list {
-  border-top: 1px solid var(--line);
-}
-
 .date-row {
   align-items: start;
-  border-bottom: 1px solid var(--line);
   display: grid;
   gap: 24px;
   grid-template-columns: minmax(0, 1fr) minmax(240px, 0.62fr);
-  padding: 26px 0;
+  padding: 0;
+}
+
+.date-row + .date-row {
+  margin-top: 10px;
 }
 
 .date-row span {
