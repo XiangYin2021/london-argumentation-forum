@@ -495,9 +495,9 @@ h3 {
 .support {
   border-top: 1px solid var(--line);
   display: grid;
-  gap: 24px;
+  gap: 18px;
   margin-top: 40px;
-  padding-top: 38px;
+  padding-top: 34px;
   text-align: center;
 }
 
@@ -524,36 +524,40 @@ h3 {
 .sponsor-logos {
   align-items: center;
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  grid-template-columns: 92px 92px minmax(240px, 310px) 112px;
+  justify-content: center;
 }
 
 .sponsor-logos img {
   background: var(--white);
   border: 1px solid var(--line);
-  border-radius: 14px;
-  height: 96px;
+  border-radius: 10px;
+  height: 58px;
   object-fit: contain;
-  padding: 18px;
+  padding: 9px;
   width: 100%;
 }
 
 .sponsor-logos .sponsor-wide {
-  grid-column: span 2;
+  height: 58px;
 }
 
 .contact {
-  text-align: center;
+  padding-bottom: clamp(58px, 7vw, 88px);
+  padding-top: clamp(58px, 7vw, 88px);
+  text-align: left;
 }
 
 .contact h2 {
-  margin-bottom: 16px;
+  font-size: clamp(20px, 1.8vw, 24px);
+  margin-bottom: 6px;
 }
 
 .contact a {
   color: var(--navy-2);
-  font-size: clamp(22px, 3vw, 36px);
-  font-weight: 780;
+  font-size: clamp(16px, 1.25vw, 18px);
+  font-weight: 650;
 }
 
 .site-footer {
@@ -718,10 +722,12 @@ h3 {
   }
 
   .sponsor-logos {
-    grid-template-columns: 1fr;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: stretch;
   }
 
   .sponsor-logos .sponsor-wide {
-    grid-column: span 1;
+    grid-column: span 2;
   }
 }
