@@ -577,15 +577,18 @@ h3 {
   text-align: left;
 }
 
-.contact h2 {
-  font-size: clamp(20px, 1.8vw, 24px);
-  margin-bottom: 6px;
+.contact-line {
+  color: var(--ink);
+  font-size: clamp(16px, 1.25vw, 18px);
+  font-weight: 520;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .contact a {
   color: var(--navy-2);
-  font-size: clamp(16px, 1.25vw, 18px);
-  font-weight: 650;
+  font: inherit;
+  font-weight: inherit;
 }
 
 .site-footer {
