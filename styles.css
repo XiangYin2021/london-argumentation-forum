@@ -180,10 +180,10 @@ img {
 
 .eyebrow {
   color: var(--gold);
-  font-size: 12px;
+  font-size: clamp(14px, 1.2vw, 16px);
   font-weight: 850;
-  letter-spacing: 0.13em;
-  margin: 0 0 18px;
+  letter-spacing: 0.08em;
+  margin: 0 0 20px;
   text-transform: uppercase;
 }
 
