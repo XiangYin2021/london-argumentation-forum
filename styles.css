@@ -366,13 +366,6 @@ h3 {
   max-width: 900px;
 }
 
-.programme-card p,
-.submission-panel li {
-  color: var(--muted);
-  line-height: 1.58;
-  margin-bottom: 0;
-}
-
 .photo-band {
   background: var(--navy);
   height: clamp(300px, 42vw, 520px);
@@ -387,23 +380,19 @@ h3 {
   width: 100%;
 }
 
-.programme-grid,
 .people-grid {
   display: grid;
   gap: 18px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.programme-card,
-.person,
-.submission-panel {
+.person {
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 20px;
   padding: clamp(24px, 3vw, 34px);
 }
 
-.programme-card span,
 .person span {
   color: var(--gold);
   display: block;
@@ -414,34 +403,56 @@ h3 {
   text-transform: uppercase;
 }
 
-.submission-panel {
-  background: var(--white);
+.schedule-table {
+  display: grid;
+  gap: 16px;
 }
 
-.submission-panel h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
+.schedule-block {
+  border: 1px solid var(--line);
 }
 
-.submission-panel a {
-  color: var(--navy-2);
-  font-size: clamp(18px, 2vw, 24px);
+.schedule-heading,
+.schedule-row {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 190px minmax(0, 1fr);
+}
+
+.schedule-heading {
+  background: #829eaa;
+  color: var(--white);
+  font-size: clamp(17px, 1.55vw, 22px);
   font-weight: 800;
+  padding: 14px 18px;
 }
 
-.submission-panel hr {
-  border: 0;
-  border-top: 1px solid var(--line);
-  margin: 28px 0;
+.schedule-heading span,
+.schedule-heading strong {
+  font: inherit;
 }
 
-.submission-panel ul {
-  margin: 0;
-  padding-left: 19px;
+.schedule-row {
+  align-items: baseline;
+  background: #edf3f3;
+  border-top: 1px solid rgba(23, 25, 29, 0.08);
+  padding: 12px 18px;
 }
 
-.submission-panel li + li {
-  margin-top: 9px;
+.schedule-row time {
+  color: var(--ink);
+  font-size: clamp(16px, 1.3vw, 19px);
+}
+
+.schedule-row p {
+  color: var(--ink);
+  font-size: clamp(16px, 1.3vw, 19px);
+  line-height: 1.35;
+  margin-bottom: 0;
+}
+
+.break-row {
+  border: 1px solid var(--line);
 }
 
 .date-list {
@@ -639,10 +650,6 @@ h3 {
     padding: 15px 0;
   }
 
-  .programme-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .two-col {
     grid-template-columns: 1fr;
   }
@@ -700,7 +707,6 @@ h3 {
     max-width: 320px;
   }
 
-  .programme-grid,
   .people-grid {
     grid-template-columns: 1fr;
   }
@@ -712,6 +718,12 @@ h3 {
 
   .topic {
     gap: 12px;
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-heading,
+  .schedule-row {
+    gap: 6px;
     grid-template-columns: 1fr;
   }
 
