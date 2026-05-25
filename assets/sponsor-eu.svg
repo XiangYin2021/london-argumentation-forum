@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 150" role="img" aria-labelledby="title">
   <title id="title">European Union flag</title>
   <rect width="225" height="150" fill="#003399"/>
-  <g fill="#ffcc00" transform="translate(112.5 75)">
+  <defs>
     <g id="star">
       <path d="M0-10.5 2.36-3.25h7.62L3.81 1.24l2.36 7.26L0 4.02-6.17 8.5l2.36-7.26-6.17-4.49h7.62z"/>
     </g>
+  </defs>
+  <g fill="#ffcc00" transform="translate(112.5 75)">
     <use href="#star" transform="translate(0 -45)"/>
     <use href="#star" transform="rotate(30) translate(0 -45)"/>
     <use href="#star" transform="rotate(60) translate(0 -45)"/>
