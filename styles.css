@@ -216,6 +216,10 @@ h2 {
   margin-bottom: 0;
 }
 
+.compact-title {
+  font-size: clamp(21px, 2vw, 29px);
+}
+
 h3 {
   font-size: clamp(20px, 1.8vw, 26px);
   line-height: 1.16;
