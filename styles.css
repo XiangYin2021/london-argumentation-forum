@@ -501,7 +501,7 @@ h3 {
 .schedule-heading {
   background: var(--gold-soft);
   color: var(--navy);
-  font-size: clamp(17px, 1.55vw, 22px);
+  font-size: clamp(16px, 1.4vw, 20px);
   font-weight: 800;
   padding: 14px 18px;
 }
