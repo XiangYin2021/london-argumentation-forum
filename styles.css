@@ -411,17 +411,13 @@ h3 {
 }
 
 .special-topic {
-  background: rgba(185, 139, 74, 0.1);
-  border-bottom-color: rgba(185, 139, 74, 0.28);
-  border-radius: 12px;
+  border-bottom-color: var(--line);
   margin-top: 12px;
-  padding-left: 18px;
-  padding-right: 18px;
 }
 
 .special-topic span,
 .special-topic h3 {
-  color: var(--gold);
+  color: #8f1f2d;
 }
 
 .special-topic p {
