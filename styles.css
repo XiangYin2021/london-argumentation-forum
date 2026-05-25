@@ -303,7 +303,8 @@ h3 {
 }
 
 .image-background .section-copy {
-  max-width: 880px;
+  max-width: 720px;
+  width: fit-content;
 }
 
 .section.muted {
