@@ -655,7 +655,7 @@ h3 {
   display: grid;
   gap: 16px;
   grid-template-columns: 116px 116px 390px 174px;
-  justify-content: center;
+  justify-content: start;
 }
 
 .sponsor-logos img {
