@@ -654,7 +654,7 @@ h3 {
   align-items: center;
   display: grid;
   gap: 16px;
-  grid-template-columns: 116px 116px 390px 174px;
+  grid-template-columns: 116px 116px 174px 116px 390px;
   justify-content: start;
 }
 
