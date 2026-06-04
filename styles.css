@@ -650,6 +650,12 @@ h3 {
   text-transform: none;
 }
 
+.support .support-copy a {
+  color: #1b5fd6;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .sponsor-logos {
   align-items: center;
   display: grid;
