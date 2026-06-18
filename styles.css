@@ -564,24 +564,13 @@ h3 {
   color: var(--navy);
 }
 
-.schedule-divider {
-  align-items: center;
+.schedule-session {
   color: var(--gold);
-  display: grid;
   font-size: 12px;
   font-weight: 850;
-  grid-template-columns: 1fr auto 1fr;
-  gap: 16px;
   letter-spacing: 0.1em;
-  padding: 8px 0;
+  padding: 8px 18px 0;
   text-transform: uppercase;
-}
-
-.schedule-divider::before,
-.schedule-divider::after {
-  background: var(--line);
-  content: "";
-  height: 1px;
 }
 
 .date-row {
