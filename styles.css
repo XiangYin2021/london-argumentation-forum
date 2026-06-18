@@ -386,13 +386,15 @@ h3 {
 
 #programme .location-section {
   margin-bottom: 34px;
+  max-width: none;
+  width: 100%;
 }
 
 .location-section p:not(.eyebrow) {
-  color: var(--muted);
-  font-size: clamp(16px, 1.35vw, 19px);
-  font-weight: 400;
-  line-height: 1.66;
+  color: var(--navy);
+  font-size: clamp(16px, 1.4vw, 20px);
+  font-weight: 500;
+  line-height: 1.35;
 }
 
 .section-head {
