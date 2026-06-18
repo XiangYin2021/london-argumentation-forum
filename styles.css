@@ -566,11 +566,19 @@ h3 {
 
 .schedule-session {
   color: var(--gold);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 850;
   letter-spacing: 0.1em;
-  padding: 8px 18px 0;
+  padding: 10px 18px 0;
   text-transform: uppercase;
+}
+
+.schedule-session + .schedule-heading {
+  margin-top: 2px;
+}
+
+.break-row + .schedule-session {
+  margin-top: 18px;
 }
 
 .date-row {
