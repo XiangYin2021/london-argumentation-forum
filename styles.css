@@ -384,6 +384,10 @@ h3 {
   padding-top: 34px;
 }
 
+#programme .location-section {
+  margin-bottom: 34px;
+}
+
 .location-section p:not(.eyebrow) {
   color: var(--muted);
   font-size: clamp(16px, 1.35vw, 19px);
