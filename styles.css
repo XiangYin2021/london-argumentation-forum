@@ -522,6 +522,15 @@ h3 {
   font: inherit;
 }
 
+.schedule-heading strong {
+  line-height: 1.35;
+}
+
+.talk-row {
+  background: var(--navy);
+  color: var(--white);
+}
+
 .schedule-row {
   align-items: baseline;
   background: var(--white);
@@ -544,7 +553,7 @@ h3 {
 .break-row {
   border: 0;
   border-bottom: 1px solid var(--line);
-  background: var(--paper);
+  background: var(--gold-soft);
   color: var(--navy);
 }
 
