@@ -527,8 +527,8 @@ h3 {
 }
 
 .talk-row {
-  background: var(--navy);
-  color: var(--white);
+  background: var(--gold-soft);
+  color: var(--navy);
 }
 
 .schedule-row {
@@ -553,7 +553,7 @@ h3 {
 .break-row {
   border: 0;
   border-bottom: 1px solid var(--line);
-  background: var(--gold-soft);
+  background: var(--paper);
   color: var(--navy);
 }
 
